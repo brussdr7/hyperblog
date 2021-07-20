@@ -3,8 +3,23 @@ body {
     font-family: Arial;
     color: darkslateblue;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera{
+    background: teal;
+    color: snow;
+    box-shadow: 7px 11px 8px -8px rgba(0,0,0,0.79);
+    font-weight: bold;
     margin: 0%;
-    padding: 0%;
+    padding: 0.5cm;
+}
+
+#cabecera #tagline{
+    padding: 0cm 0cm 1cm;
+    font-weight: normal;
+    font-size: 0.8cm;
 }
 
 #container {
@@ -13,9 +28,4 @@ body {
     text-align: center;
     border: 1px solid black;
     margin: 0 auto;
-}
-
-#cabecera{
-    background: teal;
-    color: snow;
 }
