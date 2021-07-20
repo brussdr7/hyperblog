@@ -12,14 +12,14 @@ body {
     color: snow;
     box-shadow: 7px 11px 8px -8px rgba(0,0,0,0.79);
     font-weight: bold;
-    margin: 0%;
-    padding: 0.5cm;
+    margin: 0;
+    padding: 0.5em;
 }
 
 #cabecera #tagline{
-    padding: 0cm 0cm 1cm;
+    padding: 0 0 1em;
     font-weight: normal;
-    font-size: 0.8cm;
+    font-size: 0.8em;
 }
 
 #container {
@@ -28,4 +28,12 @@ body {
     text-align: center;
     border: 1px solid black;
     margin: 0 auto;
+}
+
+#container h1{
+    font-size: 20px;
+}
+
+#post{
+    padding: 1em;
 }
