@@ -1,0 +1,116 @@
+$font-stack: 'Merriweather', serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: $font-stack;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #93B5C6;
+}
+.header__list {
+    display: flex;
+}
+.header__list a {
+    text-decoration: none;
+    color: white;
+}
+.header__list--item {
+    list-style: none;
+    line-height: 80px;
+    flex: 1 1 0;
+    text-align: center;
+    transition: flex 0.5s;
+    cursor: pointer;
+}
+.header__list--item:hover a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background: linear-gradient(#93B5C6, #FFE3E3);
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__contact {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-height: 600px;
+    width: 300px;
+    justify-content: space-around;
+    padding: 60px 68px 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    h2 {
+        color: white;
+    }
+}
+.container__contact--form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid white;
+    background: transparent;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0 20px;
+    font-family: $font-stack;
+    outline: none;
+    color: white;
+}
+::placeholder {
+    color: white;
+}
+
+.button {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.container__contact--login a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: #FFE3E3;
+    height: 80px;
+    text-align: center;
+}
+.footer__list {
+    display: flex;
+    justify-content: flex-start;
+    height: inherit;
+    align-items: center;
+}
+.footer__list--item {
+    list-style: none;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.footer__list--item:hover {
+    text-decoration: underline;
+}

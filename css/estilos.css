@@ -20,13 +20,18 @@ body {
 
 .header {
   height: 80px;
-  background-color: 3DB2FF;
+  background-color: #3DB2FF;
 }
 
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.header__list a {
+  text-decoration: none;
+  color: white;
 }
 
 .header__list--item {
@@ -40,14 +45,11 @@ body {
   transition: -webkit-box-flex 0.5s;
   transition: flex 0.5s;
   transition: flex 0.5s, -webkit-box-flex 0.5s, -ms-flex 0.5s;
-  outline: 1px solid white;
   cursor: pointer;
 }
 
 .header__list--item:hover {
-  -webkit-box-flex: 8;
-      -ms-flex: 8;
-          flex: 8;
+  text-decoration: underline;
 }
 
 .container {

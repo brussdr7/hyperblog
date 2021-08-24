@@ -16,24 +16,25 @@ body {
 
 .header {
     height: 80px;
-    background-color: 3DB2FF;
+    background-color: #3DB2FF;
 }
-
 .header__list {
     display: flex;
 }
-
+.header__list a {
+    text-decoration: none;
+    color: white;
+}
 .header__list--item {
     list-style: none;
     flex: 1;
     line-height: 80px;
     text-align: center;
     transition: flex 0.5s;
-    outline: 1px solid white;
     cursor: pointer;
 }
 .header__list--item:hover {
-    flex: 8;
+    text-decoration: underline;
 }
 
 .container {
