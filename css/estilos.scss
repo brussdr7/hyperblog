@@ -1,0 +1,117 @@
+$font-stack: 'Merriweather', serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-stack;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+.header {
+    height: 80px;
+    background-color: 3DB2FF;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list--item {
+    list-style: none;
+    flex: 1;
+    line-height: 80px;
+    text-align: center;
+    transition: flex 0.5s;
+    outline: 1px solid white;
+    cursor: pointer;
+}
+.header__list--item:hover {
+    flex: 8;
+}
+
+.container {
+    display: flex;
+    height: inherit;
+}
+
+.container h1{
+    font-size: 20px;
+}
+
+.container__content {
+    background-color: #FFEDDA;
+}
+
+.container__aside {
+    flex: 0 0 25%;
+    background-color: FFB830;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+.list__aside {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+.list__aside--item {
+    margin-bottom: 10px;
+}
+
+.list__aside--item a:hover {
+    text-decoration: underline;
+}
+
+.cabecera{
+    background:  lightseagreen;
+    color: snow;
+    box-shadow: 7px 11px 8px -8px rgba(0,0,0,0.79);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+.cabecera #tagline{
+    padding: 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.cabecera #logo{
+    width: 40px;
+    vertical-align: middle;
+}
+
+#post{
+    color: black;
+    padding: 1em;
+}
+
+.footer {
+    height: 80px;
+    margin-top: auto;
+    background-color: FF2442;
+}
+.footer__list {
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+.footer__list--item {
+    list-style: none;
+    margin-left: 20px;
+}
+.footer__list--item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

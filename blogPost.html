@@ -1,13 +1,28 @@
 <html>
-    <head>
-        <meta charset="">
-        <link rel="stylesheet" href="css/estilos.css"/>
-        <title>Bienvenido a Hyper Blog 2.0</title>
-    </head>
-    <body>
-        <div id="container">
-            <div id="cabecera">
-                <img id="logo" src="imagenes/libro.jpg"/>
+
+<head>
+    <meta charset="">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <title>Bienvenido a Hyper Blog 2.0</title>
+</head>
+
+<body>
+    <header class="header">
+        <ul class="header__list">
+            <li class="header__list--item">Home</li>
+            <li class="header__list--item">About</li>
+            <li class="header__list--item">Gallery</li>
+            <li class="header__list--item">Contact</li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="container__content">
+            <div class="cabecera">
+                <img id="logo" src="imagenes/libro.jpg" />
                 Mexico Insurgente
                 <span id="tagline">Reseña del libro del autor Jonh Reed</span>
             </div>
@@ -24,9 +39,32 @@
                     Dale Like y Suscribete
                 </p>
             </div>
-            <div id="footer">
-                Hecho con Cariño en platzi
-            </div>
         </div>
-    </body>
+        <div class="container__aside">
+            <ul class="list__aside">
+                <li class="list__aside--item">
+                    <a href="/">La sombra del viento</a>
+                </li>
+                <li class="list__aside--item">
+                    <a href="/">Gloria y esplendor</a>
+                </li>
+                <li class="list__aside--item">
+                    <a href="/">Cien años de soledad</a>
+                </li>
+                <li class="list__aside--item">
+                    <a href="/">Cita en Paris</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__list--item">Terminos de uso</li>
+            <li class="footer__list--item">Daclaracion de privacidad</li>
+            <li class="footer__list--item">Centro de ayuda</li>
+        </ul>
+    </footer>
+</body>
+
 </html>
